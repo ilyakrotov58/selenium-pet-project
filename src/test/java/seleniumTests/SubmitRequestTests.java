@@ -1,3 +1,6 @@
+package seleniumTests;
+
+import base.DataGenerator;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -17,10 +20,10 @@ public class SubmitRequestTests extends BaseTest {
         var mainPage = new MainPage.MainPageBuilder(driver);
 
         mainPage = mainPage
-                .setFirstName(DomainExtensions.generateString(5))
-                .setLastName(DomainExtensions.generateString(5))
-                .setBusinessName(DomainExtensions.generateString(5))
-                .setEmail(DomainExtensions.generateEmail())
+                .setFirstName(DataGenerator.generateString(5))
+                .setLastName(DataGenerator.generateString(5))
+                .setBusinessName(DataGenerator.generateString(5))
+                .setEmail(DataGenerator.generateEmail())
                 .setResultField();
 
         mainPage = mainPage.clickSubmitBtn();
@@ -46,9 +49,9 @@ public class SubmitRequestTests extends BaseTest {
         var mainPage = new MainPage.MainPageBuilder(driver);
 
         mainPage
-                .setFirstName(DomainExtensions.generateString(5))
-                .setLastName(DomainExtensions.generateString(5))
-                .setBusinessName(DomainExtensions.generateString(5))
+                .setFirstName(DataGenerator.generateString(5))
+                .setLastName(DataGenerator.generateString(5))
+                .setBusinessName(DataGenerator.generateString(5))
                 .setResultField()
                 .clickSubmitBtn();
 
@@ -68,9 +71,9 @@ public class SubmitRequestTests extends BaseTest {
         var mainPage = new MainPage.MainPageBuilder(driver);
 
         mainPage
-                .setLastName(DomainExtensions.generateString(5))
-                .setBusinessName(DomainExtensions.generateString(5))
-                .setEmail(DomainExtensions.generateEmail())
+                .setLastName(DataGenerator.generateString(5))
+                .setBusinessName(DataGenerator.generateString(5))
+                .setEmail(DataGenerator.generateEmail())
                 .setResultField()
                 .clickSubmitBtn();
 
@@ -90,9 +93,9 @@ public class SubmitRequestTests extends BaseTest {
         var mainPage = new MainPage.MainPageBuilder(driver);
 
         mainPage
-                .setFirstName(DomainExtensions.generateString(5))
-                .setBusinessName(DomainExtensions.generateString(5))
-                .setEmail(DomainExtensions.generateEmail())
+                .setFirstName(DataGenerator.generateString(5))
+                .setBusinessName(DataGenerator.generateString(5))
+                .setEmail(DataGenerator.generateEmail())
                 .setResultField()
                 .clickSubmitBtn();
 
@@ -112,9 +115,9 @@ public class SubmitRequestTests extends BaseTest {
         var mainPage = new MainPage.MainPageBuilder(driver);
 
         mainPage
-                .setFirstName(DomainExtensions.generateString(5))
-                .setLastName(DomainExtensions.generateString(5))
-                .setEmail(DomainExtensions.generateEmail())
+                .setFirstName(DataGenerator.generateString(5))
+                .setLastName(DataGenerator.generateString(5))
+                .setEmail(DataGenerator.generateEmail())
                 .setResultFieldWithCustomValues(10000)
                 .clickSubmitBtn();
 

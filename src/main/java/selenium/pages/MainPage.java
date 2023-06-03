@@ -1,15 +1,15 @@
 package selenium.pages;
 
 import lombok.Data;
+import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import selenium.base.BasePage;
 
-import java.util.Set;
-
-@Data
-public class MainPage {
+@Getter
+public class MainPage extends BasePage {
 
     WebDriver driver;
 
@@ -56,21 +56,6 @@ public class MainPage {
 
     private static String getSecondNumber() {
         return elemSecondNumber.getText();
-    }
-
-    public LoginPage goToLoginPage(WebDriver driver) {
-        this.loginBtn.click();
-
-        String mainWindowHandle = driver.getWindowHandle();
-        Set<String> allWindowHandles = driver.getWindowHandles();
-
-        for (String ChildWindow : allWindowHandles) {
-            if (!mainWindowHandle.equalsIgnoreCase(ChildWindow)) {
-                driver.switchTo().window(ChildWindow);
-            }
-        }
-
-        return new LoginPage(driver);
     }
 
     @Data

@@ -4,26 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45259fb3-33e8-4da3-8ce3-6c50725ef8ab" name="Changes" comment="fear: were added some tests for MainPage">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_no_aop_4_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
+    <list default="true" id="45259fb3-33e8-4da3-8ce3-6c50725ef8ab" name="Changes" comment="fear: were added test for Login Page">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_json_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_groovy_groovy_xml_4_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/selenium-pet-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium-pet-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/selenium/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SubmitRequestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SubmitRequestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DomainExtensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SubmitRequestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumTests/SubmitRequestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium/pages/MainPage$MainPageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/pages/MainPage$MainPageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DomainExtensions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPageTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SubmitRequestTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +74,8 @@
     "last_directory_selection": "/Users/ilya/IdeaProjects/selenium-pet-project/src/main/java",
     "last_opened_file_path": "/Users/ilya/IdeaProjects/selenium-pet-project/src",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -75,12 +85,18 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTests.goToLoginPage_CheckLoginButton_LoginBtnIsEnable">
-    <configuration name="LoginPageTests.goToLoginPage_CheckLoginButton_LoginBtnIsEnable" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SubmitRequestTests.fillForm_WithoutEmail_ExpectAlertWithMessage">
+    <configuration name="AddPetTests.addPet_WithCorrectParams_ReturnsCorrectResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-pet-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginPageTests" />
-      <option name="METHOD_NAME" value="goToLoginPage_CheckLoginButton_LoginBtnIsEnable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests.pet" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.pet.AddPetTests" />
+      <option name="METHOD_NAME" value="addPet_WithCorrectParams_ReturnsCorrectResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,12 +104,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitRequestTests.fillForm_WithoutBusinessName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUserTests.deleteUser_WithInvalidId_Returns404Code" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-pet-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
-      <option name="METHOD_NAME" value="fillForm_WithoutBusinessName_ExpectAlertWithMessage" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTests.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTests.user" />
+      <option name="MAIN_CLASS_NAME" value="apiTests.user.DeleteUserTests" />
+      <option name="METHOD_NAME" value="deleteUser_WithInvalidId_Returns404Code" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.goToLoginPage_CheckLoginButton_LoginBtnIsEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.LoginPageTests" />
+      <option name="METHOD_NAME" value="goToLoginPage_CheckLoginButton_LoginBtnIsEnabled" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitRequestTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.SubmitRequestTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -102,33 +159,15 @@
     </configuration>
     <configuration name="SubmitRequestTests.fillForm_WithoutEmail_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-pet-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumTests" />
+      <option name="MAIN_CLASS_NAME" value="seleniumTests.SubmitRequestTests" />
       <option name="METHOD_NAME" value="fillForm_WithoutEmail_ExpectAlertWithMessage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubmitRequestTests.fillForm_WithoutFirstName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-pet-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
-      <option name="METHOD_NAME" value="fillForm_WithoutFirstName_ExpectAlertWithMessage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubmitRequestTests.fillForm_WithoutLastName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-pet-project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
-      <option name="METHOD_NAME" value="fillForm_WithoutLastName_ExpectAlertWithMessage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginPageTests.goToLoginPage_CheckLoginButton_LoginBtnIsEnable" />
-        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutBusinessName_ExpectAlertWithMessage" />
-        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutLastName_ExpectAlertWithMessage" />
-        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutFirstName_ExpectAlertWithMessage" />
         <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutEmail_ExpectAlertWithMessage" />
+        <item itemvalue="TestNG.SubmitRequestTests" />
+        <item itemvalue="TestNG.LoginPageTests.goToLoginPage_CheckLoginButton_LoginBtnIsEnabled" />
+        <item itemvalue="TestNG.DeleteUserTests.deleteUser_WithInvalidId_Returns404Code" />
+        <item itemvalue="TestNG.AddPetTests.addPet_WithCorrectParams_ReturnsCorrectResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685609075126</updated>
       <workItem from="1685609076584" duration="52000" />
-      <workItem from="1685609190144" duration="16760000" />
+      <workItem from="1685609190144" duration="24208000" />
     </task>
     <task id="LOCAL-00001" summary="fear: were added some tests for MainPage">
       <created>1685797564081</created>
@@ -164,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685797564081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fear: were added test for Login Page">
+      <created>1685799125499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685799125499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fear: were added test for Login Page">
+      <created>1685799194893</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685799194893</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fear: were added test for Login Page">
+      <created>1685799204966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685799204966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +243,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fear: were added some tests for MainPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="fear: were added some tests for MainPage" />
+    <MESSAGE value="fear: were added test for Login Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fear: were added test for Login Page" />
   </component>
 </project>

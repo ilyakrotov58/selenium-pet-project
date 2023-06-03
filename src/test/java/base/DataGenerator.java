@@ -1,6 +1,8 @@
+package base;
+
 import net.bytebuddy.utility.RandomString;
 
-public class DomainExtensions {
+public class DataGenerator {
 
     public static String generateEmail() {
         return RandomString.make(8) + "@gmail.com";
