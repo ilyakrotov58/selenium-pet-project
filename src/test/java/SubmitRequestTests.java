@@ -2,7 +2,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import selenium.base.BaseTest;
+import base.BaseTest;
 import selenium.pages.MainPage;
 
 public class SubmitRequestTests extends BaseTest {

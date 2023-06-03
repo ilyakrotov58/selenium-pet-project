@@ -1,4 +1,4 @@
-package selenium.base;
+package base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
