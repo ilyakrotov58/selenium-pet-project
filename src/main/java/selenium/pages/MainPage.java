@@ -66,7 +66,6 @@ public class MainPage {
         String mainWindowHandle = driver.getWindowHandle();
         Set<String> allWindowHandles = driver.getWindowHandles();
 
-        // Here we will check if child window has other child windows and will fetch the heading of the child window
         for (String ChildWindow : allWindowHandles) {
             if (!mainWindowHandle.equalsIgnoreCase(ChildWindow)) {
                 driver.switchTo().window(ChildWindow);
