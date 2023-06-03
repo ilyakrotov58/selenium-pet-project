@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45259fb3-33e8-4da3-8ce3-6c50725ef8ab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Qb4ikaSb5t0HmuFUHvi6rqWoRG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/Users/ilya/IdeaProjects/selenium-pet-project/src/main/java",
+    "last_opened_file_path": "/Users/ilya/IdeaProjects/selenium-pet-project/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SubmitRequestTests.fillForm_WithoutBusinessName_ExpectAlertWithMessage">
+    <configuration name="SubmitRequestTests.fillForm_WithValidData_CorrectSubmitting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <option name="METHOD_NAME" value="fillForm_WithValidData_CorrectSubmitting" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitRequestTests.fillForm_WithoutBusinessName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <option name="METHOD_NAME" value="fillForm_WithoutBusinessName_ExpectAlertWithMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitRequestTests.fillForm_WithoutEmail_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <option name="METHOD_NAME" value="fillForm_WithoutEmail_ExpectAlertWithMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitRequestTests.fillForm_WithoutFirstName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <option name="METHOD_NAME" value="fillForm_WithoutFirstName_ExpectAlertWithMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitRequestTests.fillForm_WithoutLastName_ExpectAlertWithMessage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-pet-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SubmitRequestTests" />
+      <option name="METHOD_NAME" value="fillForm_WithoutLastName_ExpectAlertWithMessage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutBusinessName_ExpectAlertWithMessage" />
+        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutLastName_ExpectAlertWithMessage" />
+        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutFirstName_ExpectAlertWithMessage" />
+        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithoutEmail_ExpectAlertWithMessage" />
+        <item itemvalue="TestNG.SubmitRequestTests.fillForm_WithValidData_CorrectSubmitting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45259fb3-33e8-4da3-8ce3-6c50725ef8ab" name="Changes" comment="" />
+      <created>1685609075126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685609075126</updated>
+      <workItem from="1685609076584" duration="52000" />
+      <workItem from="1685609190144" duration="15227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
